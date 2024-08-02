@@ -5,7 +5,7 @@ import { themeConfig } from './settings'
 export default defineConfig({
   title: '芝士宝库',
   description: '一块美味芝士',
-  base: '/',
+  base: '/front-cheese-store',
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }]
   ],
