@@ -30,7 +30,7 @@ jobs:
       - name: Deploy to website
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          git-config-name: monishine
+          git-config-name: Moni
           git-config-email: monishine_code@163.com
           repository-name: monishine/website
           token: ${{ secrets.MONISITE_BOT_TOKEN }}
