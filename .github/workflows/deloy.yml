@@ -35,7 +35,7 @@ jobs:
           repository-name: monishine/website
           token: ${{ secrets.MONISITE_BOT_TOKEN }}
           branch: main # The branch the action should deploy to.
-          folder: dist # The folder the action should deploy.
+          folder: docs/.vitepress/dist # The folder the action should deploy.
           target-folder: dist/front-cheese-store
           clean: true # Automatically remove deleted files from the deploy branch
           commit-message: update from FrontCheeseStore
