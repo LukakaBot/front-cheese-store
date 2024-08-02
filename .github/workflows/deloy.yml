@@ -1,4 +1,4 @@
-name: TypeScript tutorial CI
+name: FrontCheeseStore CI
 on:
   push:
     branches:
