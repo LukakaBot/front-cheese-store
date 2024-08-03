@@ -34,8 +34,8 @@ jobs:
           git-config-email: monishine_code@163.com
           repository-name: monishine/website
           token: ${{ secrets.MONISITE_BOT_TOKEN }}
-          branch: master # The branch the action should deploy to.
+          branch: main # The branch the action should deploy to.
           folder: docs/.vitepress/dist # The folder the action should deploy.
-          target-folder: dist/front-cheese-store
+          target-folder: docs/front-cheese-store
           clean: true # Automatically remove deleted files from the deploy branch
           commit-message: update from FrontCheeseStore
